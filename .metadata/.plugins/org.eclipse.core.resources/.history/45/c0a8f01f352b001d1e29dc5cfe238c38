@@ -1,0 +1,10 @@
+package practice_q3;
+
+public class OutputStream {
+
+	public static void main(String[] args) {
+		
+		FileOutputStream 
+	}
+
+}

@@ -1,0 +1,10 @@
+package lambda;
+
+public class TestStringConcat {
+
+	public static void main(String[] args) {
+		StringConcatImpl sImpl = new StringConcatImpl();
+		sImpl.makeString("hello", "java");
+	}
+
+}

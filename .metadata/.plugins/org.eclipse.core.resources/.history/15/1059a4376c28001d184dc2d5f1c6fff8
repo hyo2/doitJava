@@ -1,0 +1,24 @@
+package lambda;
+
+interface PrintString{
+	void showString(String str);
+}
+
+public class LambdaTest {
+
+	public static void main(String[] args) {
+		
+		// 변수처럼 사용
+		PrintString lambdaPrint = str->System.out.println(str);
+		lambdaPrint.showString("test");
+		
+		// 매개변수로 전달
+		showMyString(lambdaPrint);
+	}
+
+	// main이 static 메서드이므로 static 함수로 만들어야 함
+	private static void showMyString(PrintString lambda) {
+		lambda.showString("test2");
+	}
+
+}

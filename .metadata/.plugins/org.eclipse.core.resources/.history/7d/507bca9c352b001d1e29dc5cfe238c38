@@ -1,0 +1,12 @@
+package practice_q3;
+
+import java.io.FileOutputStream;
+
+public class OutputStream {
+
+	public static void main(String[] args) {
+		
+		FileOutputStream fos = new FileOutputStream(fos);
+	}
+
+}

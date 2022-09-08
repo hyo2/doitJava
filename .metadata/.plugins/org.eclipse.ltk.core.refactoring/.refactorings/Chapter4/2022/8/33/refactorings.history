@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;chapter4.Switch_Case&apos; to &apos;SwitchCase&apos;&#x0D;&#x0A;- Original project: &apos;Chapter4&apos;&#x0D;&#x0A;- Original element: &apos;chapter4.Switch_Case&apos;&#x0D;&#x0A;- Renamed element: &apos;chapter4.SwitchCase&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Switch_Case&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;chapter4{Switch_Case.java[Switch_Case" matchStrategy="1" name="SwitchCase" qualified="false" references="true" similarDeclarations="false" stamp="1660360713098" textual="false" version="1.0"/>
+</session>

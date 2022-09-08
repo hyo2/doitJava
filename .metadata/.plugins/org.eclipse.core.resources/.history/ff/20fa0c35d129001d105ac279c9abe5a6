@@ -1,0 +1,6 @@
+package stream.writer;
+
+public class FileWriterTest {
+	FileOutputStream fos = new FileOutputStream("output.txt")
+}
+

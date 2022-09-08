@@ -1,0 +1,8 @@
+package practice_q5;
+
+public class HashSet {
+
+	private HashSet<Student> hashSet;
+	
+	public  
+}

@@ -1,0 +1,13 @@
+package lambda;
+
+public class TestMyNumber {
+
+	public static void main(String[] args) {
+		
+		MyNumber maxNum = (x,y) -> (x >= y) ? x:y; // return이랑 중괄호 생략
+		
+		int max = maxNum.getMaxNumber(10, 20);
+		System.out.println(max);
+	}
+
+}
